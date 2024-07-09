@@ -1,0 +1,24 @@
+POST http://192.168.15.5:5000/on HTTP/1.1
+content-type: application/json
+
+{
+
+}
+
+### 
+
+POST http://192.168.15.5:5000/off HTTP/1.1
+content-type: application/json
+
+{
+
+}
+
+###
+
+GET http://192.168.15.5:5000/status HTTP/1.1
+content-type: application/json
+
+{
+
+}
